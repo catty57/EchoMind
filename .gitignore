@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 环境变量（保留 .env.example）
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地数据 / 向量库持久化
+*.db
+*.sqlite3
+chroma/
+
+# 前端
+node_modules/
+dist/
+
+# Java
+target/
+*.class
+# Maven wrapper 下载的发行版缓存（wrapper 会自动重新下载）
+EchoMindJava/.mvn/apache-maven-*/
+
+# IDE
+.idea/
+.vscode/
