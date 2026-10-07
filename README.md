@@ -14,6 +14,25 @@
 - **在线监控与路由降权**：指标采集 + 超阈值告警 + 故障 Agent 自动降权
 - **LLM-as-Judge 端到端评测**：意图识别与回复质量自动评测
 
+## 🗺 系统架构
+
+![EchoMind 总体架构](EchoMind/wiki/assets/architecture/01-overall-architecture.png)
+
+<details>
+<summary>点击展开更多架构图：/chat 主链路 · 多 Agent 与 Skills · 数据存储 · 监控评测闭环 · 一键部署</summary>
+
+![EchoMind /chat 主链路架构](EchoMind/wiki/assets/architecture/02-chat-flow.png)
+
+![EchoMind 多 Agent 与 Skills 注入关系](EchoMind/wiki/assets/architecture/03-agent-skills.png)
+
+![EchoMind 数据与存储架构](EchoMind/wiki/assets/architecture/04-data-storage.png)
+
+![EchoMind 监控与评测闭环](EchoMind/wiki/assets/architecture/05-monitor-eval.png)
+
+![EchoMind Docker Compose 一键部署结构](EchoMind/wiki/assets/architecture/06-deployment.png)
+
+</details>
+
 ## 🏗 技术栈
 
 - 后端（核心）：Python · FastAPI · Redis · ChromaDB · Prometheus · Docker Compose
